@@ -31,9 +31,10 @@ Only data available **at the start of the month** is used for feature generation
 
 ### Confidence-Aware Classification
 We implement an abstention mechanism to avoid overconfident misclassifications:
-- **Bullish**: \( P > \theta_{high} \)
-- **Bearish**: \( P < \theta_{low} \)
-- **Neutral**: Abstain if \( \theta_{low} \leq P \leq \theta_{high} \)
+- **Bullish**: P > θ_high  
+- **Bearish**: P < θ_low  
+- **Neutral**: Abstain if θ_low ≤ P ≤ θ_high
+
 
 ---
 
